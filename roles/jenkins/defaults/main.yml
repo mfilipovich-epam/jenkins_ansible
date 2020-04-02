@@ -12,7 +12,6 @@ jenkins_http_port: 8080
 jenkins_jar_location: /opt/jenkins-cli.jar
 jenkins_url_prefix: ""
 jenkins_java_options: "-Djenkins.install.runSetupWizard=false \
--Djenkins.install.runSetupWizard=false \
 -Djava.awt.headless=true -Dhudson.plugins.git.GitSCM.verbose=true \
 -Dorg.apache.commons.jelly.tags.fmt.timeZone=Europe/London \
 -Duser.timezone=Europe/London -Dhttps.protocols=TLSv1.2 \
