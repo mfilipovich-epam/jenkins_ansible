@@ -9,13 +9,7 @@
   file: path=/etc/ansible/facts.d state=directory recurse=yes
   become: yes
   
-# - name: Check for no requiretty in sudoers
-#   lineinfile:
-#    path: /etc/sudoers
-#    regexp: '^Defaults'
-#    line: 'Defaults        !requiretty'
-#   become: yes
-  
+
 - name: Install base packages "{{ item }}"
   become: yes
   package:
