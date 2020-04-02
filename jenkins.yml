@@ -6,4 +6,4 @@
   - role: base   
   - role: java
   - role: jenkins
-#  - role: nginx
+  - role: nginx
